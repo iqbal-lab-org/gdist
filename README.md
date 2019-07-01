@@ -40,13 +40,17 @@ for advice.
   and a boolean confirming these have all been filtered to be that species.
   and an enum specifying how taxid was assigned.
   
- ### sketch_neighbour(
+ ### sketch_neighbour(sketch value, sketch type, sketch database identifer, number)
+ return <number> closest samples to sketch-value using sketch database with identifier in query.
+ eg Refseq as of such-and-such date
   
 
 
 
- ## sequence_presence_ids(string, id_thresh)
-  returns count and identifiers.
+ ### sequence_presence_ids(string, id_thresh)
+  returns count and identifiers of samples within id_thresh of string
+  
+  
   
  
  
